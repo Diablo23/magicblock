@@ -2702,7 +2702,7 @@
     <div class="modal">
       <div class="rating-header">
         <div class="rating-icon">
-          <img src="assets/magicwand.png" alt="Star" class="rating-star-img">
+          <img src="assets/point.png" alt="Star" class="rating-star-img">
         </div>
         <h2>Daily Rating</h2>
         <p id="ratingSubtitle">Rate 3 posts to unlock 20 votes today</p>
@@ -3376,7 +3376,7 @@
         // Update vote status display
         if (voteStatus.can_vote) {
           voteStatusEl.classList.remove('locked');
-          voteStatusText.innerHTML = `<img src="assets/magicwand.png" class="vote-star"> ${voteStatus.votes_remaining}/${voteStatus.daily_limit} votes`;
+          voteStatusText.innerHTML = `<img src="assets/point.png" class="vote-star"> ${voteStatus.votes_remaining}/${voteStatus.daily_limit} votes`;
         } else {
           voteStatusEl.classList.add('locked');
           voteStatusText.textContent = `🔒 Rate ${voteStatus.ratings_needed} posts`;
