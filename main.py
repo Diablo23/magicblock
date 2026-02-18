@@ -1,5 +1,5 @@
 """
-BulkGram API with Twitter OAuth + PostgreSQL Database
+Magicblob API with Twitter OAuth + PostgreSQL Database
 """
 
 from flask import Flask, request, jsonify, redirect, session
@@ -32,7 +32,7 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "")
 # ============================================================
 # ADMIN USERS
 # ============================================================
-ADMIN_USERNAMES = ["momotavrrr"]
+ADMIN_USERNAMES = ["qurool13"]
 
 def is_admin(user):
     """Check if user is an admin"""
@@ -1885,7 +1885,7 @@ if DATABASE_URL:
 
 if __name__ == "__main__":
     print("\n" + "="*60)
-    print("🚀 BulkGram API with PostgreSQL Database")
+    print("🚀 Magicblob API with PostgreSQL Database")
     print("="*60)
     
     if not TWITTER_CLIENT_ID:
