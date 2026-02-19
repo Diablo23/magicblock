@@ -913,7 +913,7 @@
     .cat-label[for="cat-meme"] { --cat-color: var(--yellow); --cat-bg: rgb(255, 239, 9); }
     .cat-label[for="cat-tech"] { --cat-color: var(--cyan); --cat-bg: rgb(255, 239, 9); }
     .cat-label[for="cat-shitpost"] { --cat-color: var(--orange); --cat-bg: rgb(255, 239, 9); }
-    .cat-label[for="cat-testnet"] { --cat-color: var(--green); --cat-bg: rgb(255, 239, 9); }
+    .cat-label[for="cat-challenges"] { --cat-color: var(--green); --cat-bg: rgb(255, 239, 9); }
 
     .submit-btn {
       width: 100%;
@@ -2599,7 +2599,7 @@
         <button class="cat-filter" data-cat="meme"><span class="cat-dot"></span> Meme</button>
         <button class="cat-filter" data-cat="tech"><span class="cat-dot"></span> Tech</button>
         <button class="cat-filter" data-cat="shitpost"><span class="cat-dot"></span> Shitpost</button>
-        <button class="cat-filter" data-cat="testnet"><span class="cat-dot"></span> Challenges</button>
+        <button class="cat-filter" data-cat="challenges"><span class="cat-dot"></span> Challenges</button>
       </div>
       <div class="tab-btns">
         <button class="tab-btn" data-tab="trending">Trending</button>
@@ -2684,8 +2684,8 @@
               <label class="cat-label" for="cat-tech">Tech</label>
               <input type="checkbox" class="cat-checkbox" id="cat-shitpost" value="shitpost">
               <label class="cat-label" for="cat-shitpost">Shitpost</label>
-              <input type="checkbox" class="cat-checkbox" id="cat-testnet" value="challenges">
-              <label class="cat-label" for="cat-testnet">Challenges</label>
+              <input type="checkbox" class="cat-checkbox" id="cat-challenges" value="challenges">
+              <label class="cat-label" for="cat-challenges">Challenges</label>
             </div>
           </div>
           <button type="submit" class="submit-btn" id="submitBtn">
@@ -2850,7 +2850,7 @@
             <input type="checkbox" value="shitpost"> Shitpost
           </label>
           <label class="category-checkbox">
-            <input type="checkbox" value="testnet"> Challenges
+            <input type="checkbox" value="challenges"> Challenges
           </label>
         </div>
         <button class="submit-btn" id="saveCategories" style="margin-top: 1rem;">
@@ -2956,9 +2956,9 @@
               Shitpost
               <span class="grade" id="gradeShitpost">-</span>
             </div>
-            <div class="hex-label" style="top: 22%; left: 5%;" id="labelTestnet">
+            <div class="hex-label" style="top: 22%; left: 5%;" id="labelchallenges">
               Challenges
-              <span class="grade" id="gradeTestnet">-</span>
+              <span class="grade" id="gradechallenges">-</span>
             </div>
             <div class="hex-label ai" style="top: 50%; left: 50%;" id="labelAI">
               AI Slop
