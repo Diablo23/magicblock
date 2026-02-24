@@ -1545,7 +1545,7 @@ def update_bio(username):
 # LEADERBOARD ENDPOINTS
 # ============================================================
 
-CATEGORIES = ['art', 'video', 'meme', 'tech', 'shitpost', 'testnet']
+CATEGORIES = ['art', 'video', 'meme', 'tech', 'shitpost', 'challenges']
 
 @app.route("/leaderboard/current-week", methods=["GET"])
 def get_current_week_posts():
